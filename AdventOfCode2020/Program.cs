@@ -7,3 +7,6 @@ WriteLine($"Multiply the 3 entries equal to 2020 together gives us {AdventOfCode
 WriteLine("-~*-*-*^~*~ Day 2 ~*~^*-*-*~-");
 WriteLine($"There are {AdventOfCode2020.Code.Day2.Part1.Solve()} valid passwords");
 WriteLine($"There are {AdventOfCode2020.Code.Day2.Part2.Solve()} valid passwords with the new interpretation");
+WriteLine("-~*-*-*^~*~ Day 3 ~*~^*-*-*~-");
+WriteLine($"There are {AdventOfCode2020.Code.Day3.Part1.Solve()} trees on a slope of right 3 down 1");
+WriteLine($"Multiplying together all the trees from the listed slopes we get {AdventOfCode2020.Code.Day3.Part2.Solve()}");
