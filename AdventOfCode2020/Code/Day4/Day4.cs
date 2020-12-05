@@ -47,10 +47,8 @@ namespace AdventOfCode2020.Code.Day4
                     if (int.Parse(match.Groups["byr"].Value) is not (>= 1920 and <= 2002)) continue;
                     if (int.Parse(match.Groups["iyr"].Value) is not (>= 2010 and <= 2020)) continue;
                     if (int.Parse(match.Groups["eyr"].Value) is not (>= 2020 and <= 2030)) continue;
-                    if (!((match.Groups["unit"].Value == "cm" && 150 <= int.Parse(match.Groups["hgt"].Value) && int.Parse(match.Groups["hgt"].Value) <= 193)
-                        || (match.Groups["unit"].Value == "in" && 59 <= int.Parse(match.Groups["hgt"].Value) && int.Parse(match.Groups["hgt"].Value) <= 76))) continue;
-
-                    valids++;
+                    if ((match.Groups["unit"].Value == "cm" && int.Parse(match.Groups["hgt"].Value) is >= 150 and <= 193)
+                        || (match.Groups["unit"].Value == "in" && int.Parse(match.Groups["hgt"].Value) is >= 59 and <= 76)) valids++;
                 }
             }
 
