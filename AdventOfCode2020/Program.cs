@@ -10,3 +10,6 @@ WriteLine($"There are {AdventOfCode2020.Code.Day2.Part2.Solve()} valid passwords
 WriteLine("-~*-*-*^~*~ Day 3 ~*~^*-*-*~-");
 WriteLine($"There are {AdventOfCode2020.Code.Day3.Part1.Solve()} trees on a slope of right 3 down 1");
 WriteLine($"Multiplying together all the trees from the listed slopes we get {AdventOfCode2020.Code.Day3.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 4 ~*~^*-*-*~-");
+WriteLine($"There are {AdventOfCode2020.Code.Day4.Part1.Solve()} valid passports in the batch file");
+WriteLine($"There are {AdventOfCode2020.Code.Day4.Part2.Solve()} valid passports in the batch file with valid values");
