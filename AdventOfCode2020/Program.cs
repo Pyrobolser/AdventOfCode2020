@@ -16,5 +16,6 @@ WriteLine($"There are {AdventOfCode2020.Code.Day4.Part2.Solve()} valid passports
 WriteLine("-~*-*-*^~*~ Day 5 ~*~^*-*-*~-");
 WriteLine($"The highest seat ID on a boarding pass is {AdventOfCode2020.Code.Day5.Part1.Solve()}");
 WriteLine($"The ID of the seat is {AdventOfCode2020.Code.Day5.Part2.Solve()}");
-
-
+WriteLine("-~*-*-*^~*~ Day 6 ~*~^*-*-*~-");
+WriteLine($"The sum of question where anyone answered 'yes' is {AdventOfCode2020.Code.Day6.Part1.Solve()}");
+WriteLine($"The sum of question where everyone answered 'yes' is {AdventOfCode2020.Code.Day6.Part2.Solve()}");
