@@ -19,3 +19,6 @@ WriteLine($"The ID of the seat is {AdventOfCode2020.Code.Day5.Part2.Solve()}");
 WriteLine("-~*-*-*^~*~ Day 6 ~*~^*-*-*~-");
 WriteLine($"The sum of question where anyone answered 'yes' is {AdventOfCode2020.Code.Day6.Part1.Solve()}");
 WriteLine($"The sum of question where everyone answered 'yes' is {AdventOfCode2020.Code.Day6.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 7 ~*~^*-*-*~-");
+WriteLine($"{AdventOfCode2020.Code.Day7.Part1.Solve()} bag colors can eventually contain at least one 'shiny gold' bag");
+WriteLine($"{AdventOfCode2020.Code.Day7.Part2.Solve()} individual bags are required inside the 'shiny gold' bag");
