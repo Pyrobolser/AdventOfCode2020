@@ -25,3 +25,6 @@ WriteLine($"{AdventOfCode2020.Code.Day7.Part2.Solve()} individual bags are requi
 WriteLine("-~*-*-*^~*~ Day 8 ~*~^*-*-*~-");
 WriteLine($"The value in the accumulator is {AdventOfCode2020.Code.Day8.Part1.Solve()}");
 WriteLine($"The value of the accumulator after the program terminates is {AdventOfCode2020.Code.Day8.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 9 ~*~^*-*-*~-");
+WriteLine($"The first number that is not the sum of two of the 25 previous numbers is {AdventOfCode2020.Code.Day9.Part1.Solve()}");
+WriteLine($"The encryption weakness in the XMAS-encrypted list of numbers is {AdventOfCode2020.Code.Day9.Part2.Solve()}");
