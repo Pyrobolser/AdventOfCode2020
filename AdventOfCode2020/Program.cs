@@ -22,3 +22,6 @@ WriteLine($"The sum of question where everyone answered 'yes' is {AdventOfCode20
 WriteLine("-~*-*-*^~*~ Day 7 ~*~^*-*-*~-");
 WriteLine($"{AdventOfCode2020.Code.Day7.Part1.Solve()} bag colors can eventually contain at least one 'shiny gold' bag");
 WriteLine($"{AdventOfCode2020.Code.Day7.Part2.Solve()} individual bags are required inside the 'shiny gold' bag");
+WriteLine("-~*-*-*^~*~ Day 8 ~*~^*-*-*~-");
+WriteLine($"The value in the accumulator is {AdventOfCode2020.Code.Day8.Part1.Solve()}");
+WriteLine($"The value of the accumulator after the program terminates is {AdventOfCode2020.Code.Day8.Part2.Solve()}");
