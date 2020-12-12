@@ -28,3 +28,6 @@ WriteLine($"The value of the accumulator after the program terminates is {Advent
 WriteLine("-~*-*-*^~*~ Day 9 ~*~^*-*-*~-");
 WriteLine($"The first number that is not the sum of two of the 25 previous numbers is {AdventOfCode2020.Code.Day9.Part1.Solve()}");
 WriteLine($"The encryption weakness in the XMAS-encrypted list of numbers is {AdventOfCode2020.Code.Day9.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 10 ~*~^*-*-*~-");
+WriteLine($"The number of 1-jolt differences multiplied by the number of 3-jolts differences is {AdventOfCode2020.Code.Day10.Part1.Solve()}");
+WriteLine($"The total number of distinct ways to arrange the adapters is {AdventOfCode2020.Code.Day10.Part2.Solve()}");
