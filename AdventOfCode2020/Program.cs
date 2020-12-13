@@ -31,6 +31,9 @@ WriteLine($"The encryption weakness in the XMAS-encrypted list of numbers is {Ad
 WriteLine("-~*-*-*^~*~ Day 10 ~*~^*-*-*~-");
 WriteLine($"The number of 1-jolt differences multiplied by the number of 3-jolts differences is {AdventOfCode2020.Code.Day10.Part1.Solve()}");
 WriteLine($"The total number of distinct ways to arrange the adapters is {AdventOfCode2020.Code.Day10.Part2.Solve()}");
-WriteLine("-~*-*-*^~*~ Day 10 ~*~^*-*-*~-");
+WriteLine("-~*-*-*^~*~ Day 11 ~*~^*-*-*~-");
 WriteLine($"{AdventOfCode2020.Code.Day11.Part1.Solve()} seats end up occupied");
 WriteLine($"{AdventOfCode2020.Code.Day11.Part2.Solve()} seats end up occupied with the new rules");
+WriteLine("-~*-*-*^~*~ Day 12 ~*~^*-*-*~-");
+WriteLine($"The Manhattan distance between the computed location and the ship's starting position is {AdventOfCode2020.Code.Day12.Part1.Solve()}");
+WriteLine($"The Manhattan distance between the new location and the ship's starting position is {AdventOfCode2020.Code.Day12.Part2.Solve()}");
