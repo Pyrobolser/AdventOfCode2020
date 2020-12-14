@@ -37,3 +37,6 @@ WriteLine($"{AdventOfCode2020.Code.Day11.Part2.Solve()} seats end up occupied wi
 WriteLine("-~*-*-*^~*~ Day 12 ~*~^*-*-*~-");
 WriteLine($"The Manhattan distance between the computed location and the ship's starting position is {AdventOfCode2020.Code.Day12.Part1.Solve()}");
 WriteLine($"The Manhattan distance between the new location and the ship's starting position is {AdventOfCode2020.Code.Day12.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 13 ~*~^*-*-*~-");
+WriteLine($"The ID of the earliest bus to the airport multiplied by the number of minutes to wait is {AdventOfCode2020.Code.Day13.Part1.Solve()}");
+WriteLine($"The earlist timestamp such that all of the bus depart at offsets matching their positions is {AdventOfCode2020.Code.Day13.Part2.Solve()}");
