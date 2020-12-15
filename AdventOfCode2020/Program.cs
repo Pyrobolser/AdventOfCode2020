@@ -43,3 +43,6 @@ WriteLine($"The earlist timestamp such that all of the bus depart at offsets mat
 WriteLine("-~*-*-*^~*~ Day 14 ~*~^*-*-*~-");
 WriteLine($"The sum of all values left in memory after it completes is {AdventOfCode2020.Code.Day14.Part1.Solve()}");
 WriteLine($"The sum of all values left in memory after the v2 completes is {AdventOfCode2020.Code.Day14.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 15 ~*~^*-*-*~-");
+WriteLine($"The 2020th number spoken will be {AdventOfCode2020.Code.Day15.Part1.Solve()}");
+WriteLine($"The 30000000th number spoken will be {AdventOfCode2020.Code.Day15.Part2.Solve()}");
