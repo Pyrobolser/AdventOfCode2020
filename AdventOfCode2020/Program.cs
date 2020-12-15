@@ -40,3 +40,6 @@ WriteLine($"The Manhattan distance between the new location and the ship's start
 WriteLine("-~*-*-*^~*~ Day 13 ~*~^*-*-*~-");
 WriteLine($"The ID of the earliest bus to the airport multiplied by the number of minutes to wait is {AdventOfCode2020.Code.Day13.Part1.Solve()}");
 WriteLine($"The earlist timestamp such that all of the bus depart at offsets matching their positions is {AdventOfCode2020.Code.Day13.Part2.Solve()}");
+WriteLine("-~*-*-*^~*~ Day 14 ~*~^*-*-*~-");
+WriteLine($"The sum of all values left in memory after it completes is {AdventOfCode2020.Code.Day14.Part1.Solve()}");
+WriteLine($"The sum of all values left in memory after the v2 completes is {AdventOfCode2020.Code.Day14.Part2.Solve()}");
